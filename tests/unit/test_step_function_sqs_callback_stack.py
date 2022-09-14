@@ -1,7 +1,7 @@
 import aws_cdk as core
 import aws_cdk.assertions as assertions
 
-from step_function_sqs_callback.step_function_sqs_callback_stack import StepFunctionSqsCallbackStack
+from stacks.step_function_sqs_callback_stack import StepFunctionSqsCallbackStack
 
 # example tests. To run these tests, uncomment this file along with the example
 # resource in step_function_sqs_callback/step_function_sqs_callback_stack.py
